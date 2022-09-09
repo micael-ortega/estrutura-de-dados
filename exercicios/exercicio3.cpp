@@ -24,8 +24,11 @@ bool check(int n){
 
 
 main(){
+	setlocale(LC_ALL, "Portuguese");
+	
 	int n;
 	printf("Verifique se o número é primo\nInsira um valor inteiro e positivo: \n");
 	scanf("%d", &n);
 	printf("%d", check(n));
 }
+
